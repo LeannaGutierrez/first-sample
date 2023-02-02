@@ -1,0 +1,21 @@
+<Page> 
+    <ActionBar title="My App"/> 
+    <StackLayout>
+        <Label text="First Nativescript Page" />
+        <Button text="Information" tap="Click"/> 
+
+        <Label Absolute Layout/>
+        <AbsoluteLayout>
+            <Label text="1" top="10" left="15" style="width:20px;" background-color="#aabbee" /> 
+            <Label text="2" top="25" left="20" style="width:25px;" background-color="99efab" />
+        </AbsoluteLayout>
+
+        <GridLayout columns="50, 75, 50" rows="70, 70">
+            <Label text="0, 0" row="0" column="0" style="background-color:#ed5698"/>
+            <Label text="0, 1" row="0" column="1" style="background-color:#34bcad"/>
+            <Label text="0, 2" row="0" column="2" style="background-color:#ed5698"/>
+            <Label text="1, 0" row="1" column="0" style="background-color:#34bcad"/>
+            <Label text="1, 1" row="1" column="1" colSpan="2" style="background-color:#eedd33">
+        </GridLayout>
+    </StackLayout>
+</Page>
